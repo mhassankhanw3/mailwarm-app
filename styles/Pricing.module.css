@@ -31,18 +31,23 @@
 
 .pricing_flex {
   max-width: 100%;
-  width: 850px;
+  width: 1000px;
   /* border: 1px solid black; */
   margin: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .pricing_block_txt {
   /* border: 1px solid black; */
   width: 400px;
+  max-width: 100%;
+  justify-content: center;
+  margin: auto;
+  text-align: start;
+  /* padding: 0px 100px 0px 0px; */
   /* margin-right: 30px; */
 }
 
@@ -157,4 +162,18 @@
 .pricing_compo .btn:hover {
   transition: all 0.4s ease-in-out;
   background-position: 100% 0;
+}
+
+.pricing_block_txt{
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 800px) {
+  .pricing_block_txt{
+    text-align: center;
+    /* border: 1px solid black; */
+    margin: auto;
+    justify-content: center;
+  }
 }
