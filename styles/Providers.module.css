@@ -1,0 +1,146 @@
+.providers{
+    /* height: 100vh; */
+    max-width: 100%;
+}
+.providers .mailProviders {
+    text-align: center;
+    /* border: 1px solid black; */
+    margin: auto;
+    /* display: block; */
+    justify-content: center;
+    max-width: 100%;
+    width: 600px;
+}
+
+.providers .mailProviders h1{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #162345;
+    width: 555px;
+    margin: 0 auto;
+}
+.providers .mailProviders h1 span{
+    color: #ff801e;
+}
+
+.providers .mailProviders p{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #494949;
+    margin-top: 10px;
+}
+
+.allAnimates{
+    /* border: 1px solid black; */
+    margin: 50px auto;
+    position: relative;
+    /* height: 900px; */
+    width: 700px;
+    max-width: 100%;
+    /* justify-content: center; */
+}
+
+.animates{
+    padding: 10px 10px;
+    position: relative;
+    border: 1.5px dashed rgb(255, 90, 45);
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+    margin: auto;
+    justify-content: center;
+}
+.animates .animatesImg_one{
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+.animates .animatesImg_two{
+    position: absolute;
+    top: 60px;
+    left: 380px;
+}
+.animates .animatesImg_three{
+    position: absolute;
+    top: 360px;
+    left: 30px;
+}
+.animates .animatesImg_four{
+    position: absolute;
+    top: 360px;
+    left: 370px;
+}
+
+.animates_two{
+    top: 25px;
+    left: 185px;
+    padding: 10px 10px;
+    position: absolute;
+    border: 1.5px dashed rgb(0, 187, 255);
+    width: 330px;
+    height: 330px;
+    border-radius: 100%;
+    margin: 35px auto;
+    justify-content: center;
+}
+
+.animates_two .animates_two_Img_one img{
+    position: absolute;
+    top: 140px;
+    left: -20px;
+}
+.animates_two .animates_two_Img_two img{
+    position: absolute;
+    top: -15px;
+    left: 150px;
+}
+.animates_two .animates_two_Img_three{
+    position: absolute;
+    top: 306px;
+    left: 170px;
+}
+
+.animates_three{
+    top: 120px;
+    left: 245px;
+    position: absolute;
+    border: 1.5px dashed rgb(255, 90, 45);
+    width: 210px;
+    height: 210px;
+    border-radius: 100%;
+    margin: auto;
+    justify-content: center;
+}
+.animates_three .animates_three_Img_one img{
+   position: absolute;
+   top: 180px;
+   left: 50px;
+}
+.animates_three .animates_three_Img_two img {
+    position: absolute;
+    top: 100px;
+    left: 192px;
+}
+.animates_three .animates_three_Img_three{
+    position:absolute;
+    top: 16px;
+    left: 12px;
+}
+
+
+.animates_three .awspng{
+    width: 35px;
+    height: auto;
+}
+.animates_three .mail{
+    width: 30px;
+    height: auto;
+}
+.animates_three .aol{
+    width: 40px;
+    height: auto;
+}

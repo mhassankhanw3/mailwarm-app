@@ -1,0 +1,104 @@
+.btn {
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  border: none;
+  line-height: 28px;
+  text-transform: uppercase;
+  transition: ease-in all 0.25s;
+  padding: 8px 20px;
+  background: none;
+  border-radius: 8px;
+  color: #fff;
+  background-size: 300% 100%;
+  transition: all 0.4s ease-in-out;
+  font-weight: 700;
+  font-size: 14px;
+  background-image: linear-gradient(
+    to right,
+    #fc1f36,
+    #ff8425,
+    #fc1f36,
+    #ff8425
+  );
+}
+.btn:hover {
+  transition: all 0.4s ease-in-out;
+  background-position: 100% 0;
+}
+.heroSection {
+  max-width: 100%;
+  width: 100%;
+  padding: 0px 25px;
+}
+.herobg {
+  max-width: 100%;
+  background-color: #32393d;
+  color: #fff;
+  border-radius: 22px;
+  padding: 3.5rem 0rem 7.5rem 0rem;
+}
+.herobg .text {
+  padding: 0px 10px;
+  font-family: "Poppins";
+  text-align: center;
+  justify-content: center;
+  /* border: 1px solid white; */
+  margin: auto;
+  width: 600px;
+  display: block;
+}
+.text h1 {
+  /* line-height: 50px; */
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+.text p {
+  margin: 30px auto;
+  width: 420px;
+  /* border: 1px solid white; */
+  font-weight: 200;
+  font-size: 17px;
+}
+.herobg .text .starsImg img {
+  margin: 20px 0px;
+}
+.top {
+  /* border: 1px solid black; */
+  justify-content: center;
+  margin: auto;
+  /* display: block; */
+  max-width: 100%;
+  width: 800px;
+  top: -125px;
+  position: relative;
+}
+.textImg img {
+  max-width: 100%;
+  width: 650px;
+  margin: auto;
+  margin-left: 15px;
+  justify-content: center;
+}
+.newsflex {
+    justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid black; */
+  max-width: 100%;
+  width: 800px;
+  margin: auto;
+}
+
+.newsflex .news {
+  display: flex;
+  align-items: center;
+  margin: 10px 20px;
+}
+.newsflex .news span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #818181;
+  margin-left: 10px;
+}

@@ -1,0 +1,27 @@
+.mainTxt{
+    margin-top: 6rem;
+}
+.txt{
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    max-width: 100%;
+    /* margin-top: 6rem; */
+}
+.txt h1{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #162345;
+    margin-bottom: 10px;
+}
+.txt p{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #494949;
+}
+
+.AllBoxes{
+    margin-top: 10rem;
+}

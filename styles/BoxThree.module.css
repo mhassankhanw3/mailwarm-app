@@ -1,0 +1,80 @@
+.box{
+    max-width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 100%;
+    /* border: 1px solid brown; */
+    width: 900px;
+    padding: 10px 10px;
+}
+
+.block_text{
+    /* border: 1px solid black; */
+    display: block;
+    width: 400px;
+}
+
+.block_text .txt h3{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    color: #162345;
+    max-width: 31.25rem;
+    margin-bottom: 26px;
+}
+
+.block_text .txt p{
+    font-weight: 300;
+    font-size: 1rem;
+    font-size: 20px;
+    line-height: 167.5%;
+    color: #494949;
+    margin-bottom: 26px;
+}
+
+
+.block_text .flex_img {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+.block_text .flex_img img{
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+.block_text .flex_img span {
+    /* margin-left: 10px; */
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #494949;
+    text-align: left;
+}
+
+.block_text .start_btn {
+    margin: 30px 0px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ff801e;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease-in-out;
+}
+
+
+
+.row .box_img {
+    margin-left: 30px;
+}
+
+.row .box_img img{
+    width: 25rem;
+    height: auto;
+}

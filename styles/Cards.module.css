@@ -1,0 +1,71 @@
+.cardSection {
+  justify-content: center;
+  max-width: 100%;
+  padding: 100px 0px 100px 0px;
+  background: #f5fbff;
+}
+.cardSection .mainCards {
+  /* border: 1px solid black; */
+  max-width: 100%;
+  width: 1000px;
+  margin: auto;
+}
+.cardSection .mainCards .head {
+  margin: auto;
+  width: 900px;
+  max-width: 100%;
+  /* border: 1px solid black; */
+  text-align: center;
+}
+.cardSection .mainCards .head h1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  color: #162345;
+  margin-bottom: 10px;
+}
+.cardSection .mainCards .flexCards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.cardSection .mainCards .card {
+  border-radius: 20px;
+  background: rgb(255, 236, 221);
+  margin: 10px 10px;
+  padding: 30px 10px;
+  /* border: 1px solid black; */
+  width: 290px;
+}
+.cardSection .mainCards .card:nth-child(2) {
+  background: rgb(255, 200, 200);
+}
+.cardSection .mainCards .card:nth-child(3) {
+  background: rgb(182, 229, 255);
+}
+.cardSection .mainCards .card .textCards {
+  margin: auto;
+  width: 180px;
+  /* border: 1px solid black; */
+}
+
+.cardSection .mainCards .card .textCards img {
+  width: 60px;
+  height: auto;
+}
+
+.cardSection .mainCards .card .textCards h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  margin: 15px 0px;
+}
+
+.cardSection .mainCards .card .textCards p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 167.5%;
+  color: #6c6c6c;
+}
