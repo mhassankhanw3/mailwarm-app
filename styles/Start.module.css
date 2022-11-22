@@ -1,0 +1,72 @@
+.start {
+  max-width: 100%;
+  padding: 100px 0px;
+}
+.start_dev {
+  padding: 70px 70px;
+  background-image: url(https://d21b0h47110qhi.cloudfront.net/usman/group-2481-qe8q1gOAxK6BN5w.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  max-width: 100%;
+  width: 1000px;
+  margin: auto;
+  /* border: 1px solid black; */
+  /* border-radius: 6px; */
+  /* padding: 30px; */
+}
+
+.start_dev_text{
+  max-width: 100%;
+  width: 480px;
+}
+
+.start_dev_button .btn {
+  margin-left: 280px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  border: none;
+  line-height: 28px;
+  text-transform: uppercase;
+  transition: ease-in all 0.25s;
+  padding: 8px 20px;
+  background: none;
+  border-radius: 8px;
+  color: #fff;
+  background-size: 300% 100%;
+  transition: all 0.4s ease-in-out;
+  font-weight: 700;
+  font-size: 14px;
+  background-image: linear-gradient(
+    to right,
+    #fc1f36,
+    #ff8425,
+    #fc1f36,
+    #ff8425
+  );
+}
+.start_dev_button .btn:hover {
+  transition: all 0.4s ease-in-out;
+  background-position: 100% 0;
+}
+
+
+
+.start_dev_text h2 {
+  color: #494949;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 45px;
+  text-align: left;
+}
+
+.start_dev_text p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #818181;
+}

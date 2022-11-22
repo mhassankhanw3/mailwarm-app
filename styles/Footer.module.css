@@ -1,0 +1,118 @@
+.footer {
+  max-width: 100%;
+}
+.footer_black {
+  max-width: 100%;
+  width: 97%;
+  margin: 0 auto 22px;
+  border-radius: 22px;
+  background-image: url(https://d21b0h47110qhi.cloudfront.net/usman/group-2548-VQQHwuLeUb1VHVE.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* text-align: center; */
+  overflow: hidden;
+  position: relative;
+  padding: 66px 56px;
+}
+.footer_section{
+    /* border: 1px solid white; */
+    max-width: 100%;
+    width: 900px;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer_section_one{
+    /* border: 1px solid black; */
+    max-width: 100%;
+    width: 400px;
+    /* text-align: start; */
+}
+.footer_section_one img {
+    width: 200px;
+    height: auto;
+}
+
+.footer_section_one p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #bdbdbd;
+  margin: 30px 0px;
+  text-align: left;
+}
+.footer_section_icon_color{
+  color: #32393d;
+}
+.footer_section_icons{
+    display: flex;
+    align-items: center;
+}
+.footer_section_icons_one{
+    cursor: pointer;
+    margin: 10px 4px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+.footer_section_icons_one:hover{
+    background-color: #ff8425;
+}
+
+.footer_section_two ul h3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* text-align: left; */
+    color: #fbfdff;
+    margin-bottom: 20px;
+}
+
+.footer_section_two ul{
+    list-style: none;
+    padding: 10px 10px;
+}
+.footer_section_two ul li{
+    margin: 15px 0px;
+}
+
+.footer_section_two ul li a {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #bdbdbd;
+    text-align: left;
+}
+.footer_section_two ul li a:hover{
+    color: #ebebeb;
+
+}
+
+.footer_section_border{
+    max-width: 100%;
+    width: 900px;
+    margin: auto;
+    justify-content: center;
+}
+.footer_section_border .footer_section_border_color{
+    max-width: 100%;
+    background-color: #a0a0a0;
+    width: 900px;
+    height: 0.1px;
+    margin-bottom: 20px;
+    /* border: 1px solid #bdbdbd; */
+}
+.footer_section_border p{
+    font-size: 13px;
+    color: #ffffff;
+}
