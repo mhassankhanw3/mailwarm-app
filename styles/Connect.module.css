@@ -1,5 +1,6 @@
 .connect {
   max-width: 100%;
+  justify-content: center;
   padding: 100px 0px 20px;
   margin-bottom: 100px;
 }

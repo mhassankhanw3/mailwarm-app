@@ -4,7 +4,7 @@ import Connect from './Connect'
 import Hero from './Hero'
 import Navbar from './Navbar'
 import Providers from './Providers'
-import Testimonials from './testimonials'
+import Testimonials from '.Testimonials'
 import Works from './Works'
 
 export default function AllFiles() {
