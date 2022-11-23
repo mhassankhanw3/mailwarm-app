@@ -21,7 +21,7 @@ export default function Navbar() {
             alt="mailwarn"
           />
         </div>
-        <ul>
+        <ul className={styles.ul}>
           <Link href="/" legacyBehavior>
             <li>
               <a href="/">PRICING</a>
