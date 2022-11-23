@@ -2,7 +2,7 @@
   max-width: 100%;
   justify-content: center;
   background: #f5fbff;
-  padding: 100px 0px;
+  padding: 100px 20px;
 }
 .pricing_head {
   /* border: 1px solid black; */
@@ -37,16 +37,16 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .pricing_block_txt {
   /* border: 1px solid black; */
   width: 400px;
   max-width: 100%;
-  justify-content: center;
+  /* justify-content: center; */
   margin: auto;
-  text-align: start;
+  /* text-align: start; */
   /* padding: 0px 100px 0px 0px; */
   /* margin-right: 30px; */
 }
@@ -79,6 +79,7 @@
 
 .pricing_compo {
     width: 380px;
+    max-width: 100%;
   /* margin-left: 50px; */
   background-color: rgb(255, 255, 255);
   border-top: 2px solid #fd2037;
@@ -166,14 +167,32 @@
 
 .pricing_block_txt{
   justify-content: center;
+  padding-right: 20px;
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 820px) {
+  .pricing_flex{
+    max-width: 100%;
+    width: 100%;
+  }
   .pricing_block_txt{
-    text-align: center;
     /* border: 1px solid black; */
-    margin: auto;
-    justify-content: center;
+    width: 100%;
+  }
+  .pricing_compo{
+    margin-top: 30px;
+  }
+  .pricing_compo{
+    max-width: 100%;
+    width: 100%;
+  }
+  .pricing_compo_text .pricing_compo_flex_img p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .button{
+    display: none;
   }
 }

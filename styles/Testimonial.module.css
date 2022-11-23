@@ -36,13 +36,14 @@
   /* border: 1px solid black; */
   max-width: 100%;
   width: 1100px;
-  margin: 50px auto;
+  margin: 50px auto 50px auto !important;
 }
 
 .testimonials_cards {
-  margin: 40px 20px;
-  border: 1px solid rgb(216, 214, 214);
+  margin: 40px 0px;
+  border: 1px solid rgb(230, 230, 230);
   width: 400px;
+  max-width: 100%;
   background-color: white;
   padding: 30px 31px;
   border-radius: 20px;
@@ -93,5 +94,24 @@
 }
 
 .testimonials_block_body {
+  padding: 10px 20px;
+  margin-top: -40px;
   display: block;
+}
+
+
+@media screen and (max-width: 870px) {
+  .monials_head{
+    width: 100% !important;
+    max-width: 100%;
+  }
+  .testimonials_body{
+    margin: 0px;
+    max-width: 100%;
+  }
+  .testimonials_cards{
+    width: 100%;
+    max-width: 100%;
+    margin: 20px 0px;
+  }
 }

@@ -1,6 +1,8 @@
 .start {
+  margin-top: -50px;
+  /* border: 1px solid black; */
   max-width: 100%;
-  padding: 100px 0px;
+  padding: 100px 10px;
 }
 .start_dev {
   padding: 70px 70px;
@@ -11,6 +13,7 @@
   border-radius: 6px;
   display: flex;
   align-items: center;
+  justify-content: center;
   /* justify-content: space-evenly; */
   max-width: 100%;
   width: 1000px;
@@ -21,12 +24,23 @@
 }
 
 .start_dev_text{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+  width: 850px;
   max-width: 100%;
-  width: 480px;
+  /* border: 1px solid black; */
 }
+.start_dev_text_head{
+  display: block;
+  width: 450px;
+  max-width: 100%;
+  /* border: 1px solid black; */
 
+}
 .start_dev_button .btn {
-  margin-left: 280px;
+  /* margin-left: 280px; */
   font-family: "Poppins", sans-serif;
   cursor: pointer;
   border: none;
@@ -61,7 +75,7 @@
   font-weight: bold;
   font-size: 26px;
   line-height: 45px;
-  text-align: left;
+  /* text-align: left; */
 }
 
 .start_dev_text p {
@@ -69,4 +83,25 @@
   font-size: 18px;
   line-height: 24px;
   color: #818181;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 820px) {
+  .start_dev{
+     padding: 50px 30px;
+  }
+  .start_dev_text{
+    display: block;
+  }
+  .start_dev_text_head{
+    width: 100%;
+    max-width: 100%;
+  }
+  .start_dev_button .btn{
+    padding: 12px 16px;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 100%;
+    font-size: 16px;
+  }
 }

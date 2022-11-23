@@ -57,6 +57,9 @@
   display: flex;
   align-items: center;
 }
+.nav .mainNav .buttons .hamburger{
+  display: none;
+}
 .nav .mainNav .buttons button {
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
@@ -98,4 +101,33 @@
 }
 .img img {
   cursor: pointer;
+}
+
+
+@media screen and (max-width: 1020px) {
+  .nav{
+    padding: 15px 20px;
+  }
+  .nav ul li a{
+    font-size: 13px;
+  }
+  .buttons .firstBtn{
+    font-size: 13px !important;
+  }
+}
+@media screen and (max-width: 760px){
+  .nav ul{
+    display: none;
+  }
+  .nav .buttons{
+    display: none;
+  }
+  .nav .buttons button{
+    display: none;
+  }
+  .nav .mainNav .buttons .hamburger{
+    display: block;
+    font-size: 24px;
+    fill: #32393d;
+  }
 }

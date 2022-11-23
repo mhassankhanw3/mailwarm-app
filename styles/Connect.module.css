@@ -24,6 +24,7 @@
 
 .connect_head p {
   width: 400px;
+  max-width: 100%;
   margin: auto;
   /* border: 1px solid red; */
   font-weight: 300;
@@ -33,7 +34,7 @@
 }
 
 .connect_flex {
-    margin-top: 5rem;
+  margin-top: 5rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -63,14 +64,14 @@
   height: auto;
 }
 
-.connect_img_flex .connect_img_img_two{
-    width: 45px;
-    height: auto;
+.connect_img_flex .connect_img_img_two {
+  width: 45px;
+  height: auto;
 }
 
-.connect_img_flex .connect_img_img_three{
-    width: 55px;
-    height: auto;
+.connect_img_flex .connect_img_img_three {
+  width: 55px;
+  height: auto;
 }
 
 .connect_img_flex {
@@ -98,12 +99,12 @@
 }
 
 .connect_card {
-    margin: 0px 20px;
+  margin: 20px 20px;
   padding: 30px;
   border-radius: 22px;
   width: 250px;
   border: 1px solid #ececec;
-  box-shadow: 16px 18px 0px -1px rgba(112,112,112,0.25);
+  box-shadow: 16px 18px 0px -1px rgba(112, 112, 112, 0.25);
 }
 
 .connect_card .connect_para {
@@ -113,4 +114,23 @@
   color: #818181;
   text-align: left;
   margin-top: 20px;
+}
+
+@media screen and (max-width: 1050px) {
+  .connect_arrow{
+    display: none;
+  }
+  .connect_head{
+    padding: 0px 13px;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  .connect_head h1{
+    font-size: 30px;
+  }
+  .connect_head p{
+    width: 100%;
+    max-width: 100%;
+  }
 }

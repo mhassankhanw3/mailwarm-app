@@ -2,6 +2,7 @@ import styles from "../styles/Navbar.module.css"
 import React from 'react'
 import Link from "next/link"
 import {FiChevronDown} from "react-icons/fi"
+import {GiHamburgerMenu} from "react-icons/gi"
 
 export default function Navbar() {
   return (
@@ -21,6 +22,7 @@ export default function Navbar() {
         <div className={styles.buttons}>
             <button className={styles.firstBtn}>LOGIN</button>
             <button className={styles.secondBtn}>GET STARTED</button>
+            <GiHamburgerMenu  className={styles.hamburger}/>
         </div>
         </div>
     </nav>

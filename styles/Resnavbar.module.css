@@ -1,0 +1,30 @@
+.resnavbar{
+    max-width: 100%;
+    width: 100%;
+}
+
+.resnavbar .bg_img{
+    background-image: url(https://d21b0h47110qhi.cloudfront.net/usman/group-2548-VQQHwuLeUb1VHVE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.resnavbar_mailwarm img{
+    width: 180px;
+    height: auto;
+}
+.resnavbar_mailwarm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cross{
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+}

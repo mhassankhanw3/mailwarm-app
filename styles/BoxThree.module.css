@@ -24,7 +24,7 @@
     font-size: 30px;
     line-height: 45px;
     color: #162345;
-    max-width: 31.25rem;
+    /* max-width: 31.25rem; */
     margin-bottom: 26px;
 }
 
@@ -58,6 +58,7 @@
 }
 
 .block_text .start_btn {
+    cursor: pointer;
     margin: 30px 0px;
     font-weight: 600;
     font-size: 14px;
@@ -77,4 +78,49 @@
 .row .box_img img{
     width: 25rem;
     height: auto;
+}
+
+@media screen and (max-width: 760px) {
+    .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .box_img{
+        background-color: #F5ECFF;
+        max-width: 100%;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin-left: 0px !important;
+        padding: 20px 0px;
+        border-radius: 22px;
+    }
+    .box_img img{
+        width: 200px !important;
+        height: auto;
+    }
+    .txt{
+        text-align: center;
+        max-width: 100%;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .flex_images{
+        /* border: 1px solid black; */
+        max-width: 100%;
+        width: 100%;
+    }
+    .block_text{
+        padding: 0px 8px;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .block_text{
+        text-align: center;
+    }
+  
 }

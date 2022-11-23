@@ -6,7 +6,7 @@ export default function BoxOne() {
       <div className={styles.row}>
         <div className={styles.block_text}>
           <div className={styles.txt}>
-            <h3>Start integrating your mail box.</h3>
+        <h3>Start integrating your mail box.</h3>
             <p>
               Integrate your mail box with 10+ service providers like, google,
               outlook, or SMTP.

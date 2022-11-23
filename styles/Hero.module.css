@@ -1,4 +1,5 @@
 .btn {
+  margin-top: 1rem;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
   border: none;
@@ -28,13 +29,13 @@
 .heroSection {
   max-width: 100%;
   width: 100%;
-  padding: 0px 25px;
+  padding: 0px 15px;
 }
 .herobg {
   max-width: 100%;
   background-color: #32393d;
   color: #fff;
-  border-radius: 22px;
+  border-radius: 20px;
   padding: 3.5rem 0rem 7.5rem 0rem;
 }
 .herobg .text {
@@ -44,11 +45,13 @@
   justify-content: center;
   /* border: 1px solid white; */
   margin: auto;
-  width: 600px;
-  display: block;
+  /* width: 600px; */
+  /* display: block; */
 }
 .text h1 {
   /* line-height: 50px; */
+  width: 580px;
+  margin: auto;
   font-weight: 700;
   font-size: 2.4rem;
 }
@@ -76,7 +79,7 @@
   max-width: 100%;
   width: 650px;
   margin: auto;
-  margin-left: 15px;
+  /* margin-left: 15px; */
   justify-content: center;
 }
 .newsflex {
@@ -87,7 +90,7 @@
   /* border: 1px solid black; */
   max-width: 100%;
   width: 800px;
-  margin: auto;
+  margin: 20px auto;
 }
 
 .newsflex .news {
@@ -101,4 +104,39 @@
   font-size: 18px;
   color: #818181;
   margin-left: 10px;
+}
+
+
+@media screen and (max-width: 1020px) {
+  .text{
+    /* border: 1px solid white; */
+    max-width: 100%;
+    width: 100%;
+    padding: 0px 15px !important;
+  }
+  .text h1{
+    max-width: 100%;
+    width: 950px;
+    font-size: 2rem;
+  }
+  .text p{
+    width: 950px;
+    max-width: 100%;
+    margin: 30px 0px;
+  }
+  .textImg {
+    display: none;
+  }
+  .herobg{
+    padding-bottom: 20px;
+  }
+  .newsflex{
+    margin-top: 10rem;
+    margin-bottom: 0px;
+  }
+  .btn{
+    width: 250px;
+    margin: auto;
+    padding: 12px 10px;
+  }
 }
