@@ -45,6 +45,7 @@
     color: white;
     width: 100%;
     max-width: 100%;
+    display: block;
     /* justify-content: center; */
     /* padding: 20px 20px; */
 }
