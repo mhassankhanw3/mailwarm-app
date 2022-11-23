@@ -1,6 +1,12 @@
 .resnavbar{
-    max-width: 100%;
-    width: 100%;
+    /* max-width: 100%; */
+    /* width: 100%; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border: 1px solid black;
 }
 
 .resnavbar .bg_img{
@@ -10,21 +16,95 @@
     background-size: cover;
     max-width: 100%;
     width: 100%;
-    padding: 20px 20px;
+    padding-bottom: 5px;
+    /* padding: 20px 20px; */
 }
 
 .resnavbar_mailwarm img{
-    width: 180px;
+    width: 150px;
     height: auto;
 }
 .resnavbar_mailwarm{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px 20px;
+    /* border: 1px solid white; */
+
 }
 
 .cross{
     font-size: 30px;
     color: white;
+    /* border: 1px solid white; */
     font-weight: 800;
+}
+
+.list{
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    width: 100%;
+    max-width: 100%;
+    /* justify-content: center; */
+    /* padding: 20px 20px; */
+}
+.list ul{
+    list-style: none;
+    display: block;
+    margin: auto;
+    /* align-items: center; */
+    /* width: 100%; */
+    max-width: 100%;
+    justify-content: center;
+}
+.list ul li{
+    display: flex;
+    align-items: center;
+    margin: 30px 0px;
+    font-size: 22px;
+    /* border-bottom: 1px solid white; */
+    max-width: 100%;
+    padding: 0px 20px;
+    /* width: 100%; */
+    /* padding: 10px 20px; */
+}
+.color{
+   border: 0.2px solid rgb(132, 132, 132);
+   display: flex;
+   /* width: 100%; */
+   max-width: 100%;
+   align-items: center;
+   /* justify-content: center; */
+   /* z-index: 1; */
+}
+.list ul li a{
+    margin-left: 10px;
+    color: white;
+    font-size: 22px;
+
+}
+.buttons{
+    /* border: 1px solid white; */
+    max-width: 100%;
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    justify-content: center;
+}
+.buttons button{
+    padding: 10px 18px;
+    border: none;
+    border-radius: 7px;
+    margin: 10px 6px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+
+}
+.buttons .secondBtn {
+    background-color: #009ef7;
+    color: white;
+    font-weight: 700;
 }
