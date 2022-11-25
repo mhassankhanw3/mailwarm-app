@@ -6,7 +6,7 @@ export default function BoxOne() {
       <div className={styles.row}>
         <div className={styles.block_text}>
           <div className={styles.txt}>
-        <h3>Start integrating your mail box.</h3>
+        <h4>Start integrating your mail box.</h4>
             <p>
               Integrate your mail box with 10+ service providers like, google,
               outlook, or SMTP.
@@ -36,9 +36,9 @@ export default function BoxOne() {
             </div>
           </div>
           <div>
-            <p className={styles.start_btn}>
+            <a href="/" className={styles.start_btn}>
               START WARM-UP 
-            </p>
+            </a>
           </div>
         </div>
         <div className={styles.box_img}>

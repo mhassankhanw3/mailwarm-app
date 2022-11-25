@@ -6,7 +6,7 @@ export default function BoxThree() {
       <div className={styles.row}>
         <div className={styles.block_text}>
           <div className={styles.txt}>
-            <h3>Real human inbox.</h3>
+            <h4>Real human inbox.</h4>
             <p>
             MailWarm.io makes sure that your email is seen by real recipients and not some bot.
             </p>
@@ -35,9 +35,9 @@ export default function BoxThree() {
             </div>
           </div>
           <div>
-            <p className={styles.start_btn}>
+            <a href="/" className={styles.start_btn}>
               START WARM-UP 
-            </p>
+            </a>
           </div>
         </div>
         <div className={styles.box_img}>

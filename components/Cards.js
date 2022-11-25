@@ -1,8 +1,15 @@
 import styles from "../styles/Cards.module.css";
+import { useMainContext } from "../context/Main";
+import { useState } from "react";
+
 
 export default function Cards() {
+  const {theme, cardTheme, setCardTheme} = useMainContext();
+
+  // const { theme } = useMainContext();
   return (
-    <div className={styles.cardSection}>
+    // <div className={`${cardTheme}`}>
+    <div className={`${styles.cardSection} ${cardTheme}`}>
       <div className={styles.mainCards}>
         <div className={styles.head}>
           <h1>Everything that you need to power your emails</h1>
@@ -22,7 +29,7 @@ export default function Cards() {
             </div>
           </div>
           <div className={styles.card}>
-            <div className={styles.textCards}>
+            <div className={styles.textCards} >
               <img
                 src="https://www.mailwarm.io/images/features-email/features2.png"
                 alt="loading"
@@ -48,5 +55,6 @@ export default function Cards() {
         </div>
       </div>
     </div>
+    //  </div>
   );
 }

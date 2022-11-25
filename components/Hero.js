@@ -1,9 +1,15 @@
 import styles from "../styles/Hero.module.css";
+import { useMainContext } from "../context/Main";
+
 
 export default function Hero() {
+  const { theme, setTheme } = useMainContext();
+  // const toggleMode = () => {
+  //   setTheme(theme === "light" ? "dark" : "light");
+  // };
   return (
     <div className={styles.heroSection}>
-      <div className={styles.herobg}>
+      <div className={`${styles.herobg} ${theme}`}>
         <div className={styles.text}>
           <h1>Warmup your emails & land in Inbox</h1>
           <p>

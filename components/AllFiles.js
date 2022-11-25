@@ -9,10 +9,13 @@ import Providers from './Providers'
 import Start from './Start'
 import Testimonials from './Testimonials'
 import Works from './Works'
+import { useMainContext } from "../context/Main";
 
 export default function AllFiles() {
+  const { theme, setTheme } = useMainContext();
+
   return (
-    <div className='container'>
+    <div className={`${theme}`}>
         <Navbar />
         <Hero />
         <Providers />

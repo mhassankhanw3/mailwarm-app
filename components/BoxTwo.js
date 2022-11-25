@@ -6,7 +6,7 @@ export default function BoxTwo() {
       <div className={styles.row}>
         <div className={styles.block_text}>
           <div className={styles.txt}>
-            <h3>The natural flow.</h3>
+            <h4>The natural flow.</h4>
             <p>
             No unatural patterns! Your mail gets to the recipients, opened, and marked read naturally.
             </p>
@@ -35,9 +35,9 @@ export default function BoxTwo() {
             </div>
           </div>
           <div>
-            <p className={styles.start_btn}>
+            <a href="/" className={styles.start_btn}>
               START WARM-UP 
-            </p>
+            </a>
           </div>
         </div>
         <div className={styles.box_img}>

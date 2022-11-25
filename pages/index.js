@@ -1,7 +1,9 @@
 import Head from "next/head";
 import AllFiles from "../components/AllFiles";
 
+
 export default function Home() {
+ 
   return (
     <div>
       <Head>

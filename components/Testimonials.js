@@ -1,11 +1,16 @@
 import styles from "../styles/Testimonial.module.css";
+import { useState } from "react";
+import { useMainContext } from "../context/Main";
+
+
 
 export default function Testimonials() {
+  const {testTheme , setTestTheme, theme, cardTheme, setCardTheme} = useMainContext();
   return (
-    <div className={styles.testimonials}>
-      <div className={styles.monials_head}>
+    <div className={`${styles.testimonials}  ${cardTheme}`}>
+      <div className={styles.monials_head} >
         <h1>Testimonials</h1>
-        <p>MailWarm.io helped them to increase their email deliverability</p>
+        <h6>MailWarm.io helped them to increase their email deliverability</h6>
       </div>
       <div className={styles.testimonials_body}>
         <div className={styles.testimonials_block_body}>

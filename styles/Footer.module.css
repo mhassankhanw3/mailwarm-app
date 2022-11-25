@@ -1,16 +1,20 @@
 .footer {
   max-width: 100%;
+  padding-bottom: 0px;
+  margin-bottom: -22px;
 }
 .footer_black {
   max-width: 100%;
   width: 97%;
   margin: 0 auto 22px;
   border-radius: 22px;
-  background-image: url(https://d21b0h47110qhi.cloudfront.net/usman/group-2548-VQQHwuLeUb1VHVE.png);
+  /* background-image: url(https://d21b0h47110qhi.cloudfront.net/usman/group-2548-VQQHwuLeUb1VHVE.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
   /* text-align: center; */
+  background-color: #32393d;
+
   overflow: hidden;
   position: relative;
   padding: 66px 56px;

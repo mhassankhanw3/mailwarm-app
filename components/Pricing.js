@@ -1,14 +1,18 @@
 import styles from "../styles/Pricing.module.css";
+import { useMainContext } from "../context/Main";
+
 
 export default function Pricing() {
+  const {testTheme , setTestTheme, theme, cardTheme, setCardTheme} = useMainContext();
+
   return (
-    <div className={styles.pricing}>
+    <div className={`${styles.pricing} ${theme}`}>
       <div className={styles.pricing_head}>
         <h1>Pricing</h1>
         <p>Start increasing your email deliverabilty with any inbox</p>
       </div>
       <div className={styles.pricing_flex}>
-        <div className={styles.pricing_block_txt}>
+        <div className={`${styles.pricing_block_txt} ${theme}`}>
           <h3>Flexible Pricing</h3>
           <div className={styles.pricing_flex_txt}>
             <img
@@ -35,7 +39,7 @@ export default function Pricing() {
             <p>Limits similar as all other pricings.</p>
           </div>
         </div>
-        <div className={styles.pricing_compo}>
+        <div className={`${styles.pricing_compo} ${theme}`}>
           <div className={styles.pricing_compo_block_txt}>
             <h3>$15</h3>
             <p>per month</p>

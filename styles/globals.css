@@ -16,3 +16,84 @@ a {
   margin: 0;
 }
 
+
+.dark{
+  background-color: #32393d !important;
+  color: white !important;
+  /* height: 100vh; */
+}
+/* .light{
+  background-color: rgb(255, 255, 255);
+  color: black;
+} */
+.dark li a{
+  color: #ffffff !important;
+}
+.dark h1{
+  color: #e5e7eb !important;
+}
+.dark h4{
+  color: #e5e7eb !important;
+}
+.dark h3{
+  color: #e5e7eb !important;
+}
+.dark p{
+  color: #e5e7eb !important;
+}
+.dark span{
+  color: #e5e7eb !important;
+}
+.dark{
+  background-color: #32393d !important;
+  /* color: black !important; */
+}
+.dark .radius{
+  background-color: rgb(219, 0, 0) !important;
+}
+.dark .card h3{
+  color: black !important;
+}
+.dark .card p{
+  color: black !important;
+}
+
+.dark .testimonials_txt p {
+  color: black !important;
+}
+
+/* .darkCard {
+  background-color: #32393d !important;
+  color: purple !important;
+} */
+
+.darkCard{
+  background-color: #32393d !important;
+  color: #32393d !important;
+}
+.darkCard h4{
+  color: #32393d !important;
+}
+/* .darkCard h1{
+  color: #32393d !important;
+} */
+.darkCard h3{
+  color: #32393d !important;
+}
+.darkCard p{
+  color: #32393d !important;
+}
+.darkCard h6{
+  color: #e5e7eb !important;
+}
+.darkCard .monials_head p{
+  color: white !important;
+}
+
+.darkSwitch .halfCircle{
+  background-color: rgb(251, 0, 0) !important;
+}
+.darkSwitch p{
+  background-color: rgb(255, 255, 255) !important;
+  left: 26px !important;
+}

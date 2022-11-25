@@ -6,7 +6,7 @@ export default function BoxFour() {
       <div className={styles.row}>
         <div className={styles.block_text}>
           <div className={styles.txt}>
-            <h3>Sit back and relax.</h3>
+            <h4>Sit back and relax.</h4>
             <p>
             Seriously, it’s that simple. Warming up your email is only a single click away.
             </p>
@@ -35,9 +35,9 @@ export default function BoxFour() {
             </div>
           </div>
           <div>
-            <p className={styles.start_btn}>
+            <a href="/" className={styles.start_btn}>
               START WARM-UP 
-            </p>
+            </a>
           </div>
         </div>
         <div className={styles.box_img}>

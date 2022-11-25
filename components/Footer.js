@@ -1,7 +1,9 @@
 import styles from "../styles/Footer.module.css";
 import { FaFacebookF, FaLinkedin } from "react-icons/fa";
+import { useMainContext } from "../context/Main";
 
 export default function Footer() {
+  const {testTheme , setTestTheme, theme, cardTheme, setCardTheme} = useMainContext();
   return (
     <div className={styles.footer}>
       <div className={styles.footer_black}>

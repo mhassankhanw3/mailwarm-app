@@ -13,7 +13,26 @@
   justify-content: space-between;
   margin: auto;
 }
-
+.halfCircle{
+  border-radius: 25px 25px 25px 25px;
+  padding: 2px 10px;
+  width: 50px;
+  height: 28px;
+  background-color:#b0b0b0;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.radius{
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 4px;
+}
 .nav .ul {
   display: flex;
   align-items: center;
@@ -131,3 +150,4 @@
     fill: #32393d;
   }
 }
+
