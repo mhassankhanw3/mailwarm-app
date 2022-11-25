@@ -3,13 +3,13 @@ import { useMainContext } from "../context/Main";
 
 
 export default function Hero() {
-  const { theme, setTheme } = useMainContext();
+  const { theme, setTheme, heroTheme, setHeroTheme} = useMainContext();
   // const toggleMode = () => {
   //   setTheme(theme === "light" ? "dark" : "light");
   // };
   return (
-    <div className={styles.heroSection}>
-      <div className={`${styles.herobg} ${theme}`}>
+    <div className={`${styles.heroSection} ${theme}`}>
+      <div className={`${styles.herobg} ${heroTheme}`}>
         <div className={styles.text}>
           <h1>Warmup your emails & land in Inbox</h1>
           <p>

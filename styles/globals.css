@@ -97,3 +97,14 @@ a {
   background-color: rgb(255, 255, 255) !important;
   left: 26px !important;
 }
+
+.darkHero{
+  background-color: #f3f4f6 !important;
+  color: black !important;
+}
+.darkHero h1{
+  color: #32393d !important;
+}
+.darkHero p{
+  color: #32393d !important;
+}

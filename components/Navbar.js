@@ -18,7 +18,7 @@ export default function Navbar() {
     console.log(toggle, "toggle");
   };
 
-  const { theme, setTheme, cardTheme, setCardTheme, testTheme , setTestTheme, switchbtn, setSwitchbtn} = useMainContext();
+  const { theme, setTheme, cardTheme, setCardTheme, testTheme , setTestTheme, switchbtn, setSwitchbtn, heroTheme, setHeroTheme} = useMainContext();
   // const { } = useMainContext();
 
   const toggleMode = () => {
@@ -27,6 +27,7 @@ export default function Navbar() {
     setCardTheme(cardTheme === 'lightCard' ? 'darkCard' : 'lightCard')
     setTestTheme(testTheme === 'lightTest' ? 'lightTest' : 'lightTest')
     setSwitchbtn(switchbtn === 'lightSwitch' ? 'darkSwitch' : 'lightSwitch')
+    setHeroTheme(heroTheme === 'lightHero' ? 'darkHero' : 'lightHero')
   };
   
   useEffect(() => {

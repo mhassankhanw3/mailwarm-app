@@ -6,6 +6,7 @@ export const MainContextProvider = (props) => {
   const [cardTheme, setCardTheme] = useState("lightCard");
   const [testTheme, setTestTheme] = useState("lightTest");
   const [switchbtn, setSwitchbtn] = useState('lightSwitch')
+  const [heroTheme, setHeroTheme] = useState('lightHero')
 
   const { children } = props;
   return (
@@ -18,6 +19,8 @@ export const MainContextProvider = (props) => {
         testTheme: testTheme,
         setTestTheme: setTestTheme,
         switchbtn, setSwitchbtn,
+        heroTheme: heroTheme, 
+        setHeroTheme: setHeroTheme,
       }}
     >
       {children}
