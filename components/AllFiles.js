@@ -12,7 +12,8 @@ import Works from './Works'
 import { useMainContext } from "../context/Main";
 
 export default function AllFiles() {
-  const { theme, setTheme } = useMainContext();
+  const { theme, setTheme , date, setDate} = useMainContext();
+
 
   return (
     <div className={`${theme}`}>

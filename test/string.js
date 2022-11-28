@@ -1,7 +1,8 @@
-let state = 41
+// let state = 41
 
-if(state) {
-    console.log("is true");
-}else{
-    console.log("is false");
-}
+// if(state) {
+//     console.log("is true");
+// }else{
+//     console.log("is false");
+// }
+

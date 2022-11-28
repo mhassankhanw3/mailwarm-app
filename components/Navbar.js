@@ -5,11 +5,12 @@ import { FiChevronDown } from "react-icons/fi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Resnavbar from "../components/Resnavbar"
 import { useMainContext } from "../context/Main";
+import moment from "moment/moment";
+
 
 
 export default function Navbar() {
   const [toggle, setToggle ] = useState(false);
-
   let darkImg = "https://www.mailwarm.io/images/mailwarm_black.png";
   let lightImg  = "https://www.mailwarm.io/images/mailwarm_white.png"
   const [themeImg, setThemeImg] = useState(darkImg);
@@ -29,10 +30,16 @@ export default function Navbar() {
     setSwitchbtn(switchbtn === 'lightSwitch' ? 'darkSwitch' : 'lightSwitch')
     setHeroTheme(heroTheme === 'lightHero' ? 'darkHero' : 'lightHero')
   };
+  // setDate(theme === date ? 'theme' : date)
   
   useEffect(() => {
-    console.log(theme, "theme");
-    console.log(themeImg,"themeImg")
+    const time =  moment().format('A');
+    if(time === 'PM'){
+    setThemeImg(lightImg)
+    }else{
+    setThemeImg(darkImg)
+
+    }
   }, [themeImg])
   
   return (
